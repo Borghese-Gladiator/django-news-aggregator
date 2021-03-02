@@ -1,1 +1,1 @@
-web: gunicorn news_aggregator/wsgi.py
+web: gunicorn news_aggregator.wsgi:application
